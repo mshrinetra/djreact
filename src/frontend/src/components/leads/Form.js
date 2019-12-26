@@ -33,6 +33,7 @@ export class Form extends Component {
     return (
       <div className="row section">
         <form className="col s12" onSubmit={this.onSubmit}>
+          <h3>Add Lead</h3>
           <div className="row">
             <div className="input-field col s12">
               <input
